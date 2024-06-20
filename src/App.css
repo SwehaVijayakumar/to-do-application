@@ -1,0 +1,100 @@
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+body{
+  background-color: rgb(4, 61, 82);
+ 
+}
+
+.container {
+  max-width: 1600px;
+  width: 90%;
+  margin: inherit;
+}
+
+h2{
+  font-family:monospace;
+  font-style: italic;
+  color: rgb(158, 161, 161);
+}
+
+h3{
+  font-family:monospace;
+  font-style: italic;
+  color: rgb(37, 60, 60);
+}
+
+.todo-wrapper{
+  background-color: rgba(255, 228, 196, 0.658);
+  padding: 2%;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 568px;
+  overflow-y: auto;
+  box-shadow: 3px 3px 3px 3px rgba(155, 94, 133, 0.548);
+  border-radius: 50px;
+  opacity:1 ;
+  
+  } 
+
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-radius: 100px;
+  outline: none;
+}
+
+.create_form button{
+  padding: 10px;
+  border-radius: 100px;
+  background-color:rgb(4, 61, 82);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+
+.task{
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  width: 345px;
+  justify-content: space-between;
+  background-color: rgba(88, 93, 94, 0.516);
+  color: rgb(255, 255, 255);
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+}
+
+
+.checkbox{
+  display: flex;
+  align-items:inherit;
+}
+
+.line_through{
+  text-decoration: line-through;
+}
+
+.checkbox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span{
+  margin: 0px 5px 0 px 4px;
+}
+
+
+.task div .icon{
+  cursor: pointer;
+}
